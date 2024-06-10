@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Kanit', sans-serif;
+}
+
+h2{
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 22px;
+}
+
+.ctn__body{
+  max-width: 1360px;
+  margin: auto;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 70%,rgb(0, 40, 116) 85%);
+}
+
+/* Banner */
+.ctn__banner{
+  margin: auto;
+  margin-top: -55px;
+  height: 110vh;
+  background-image: linear-gradient(to left, rgba(122, 86, 204, 0.4) 0%, rgba(0, 0, 0, 0.4) 60%), url(../img/img_Nosotros/img_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.txt__banner{
+  margin-left: 20px;
+  padding: 30px;
+  width: 25%;
+}
+
+.txt__banner p{
+  font-size: 20px;
+  color: white;
+}
+
+.titulo__banner{
+  display: flex;
+}
+
+.titulo__banner h1{
+  color: rgb(226, 226, 226);
+}
+
+#g{
+  color: rgb(12, 75, 112);
+}
+
+.ctn__desarrolladores{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__desarolladores{
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.img__desarolladores img{
+  width: 100%;
+}
+
+.integrantes{
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.integrantes h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.integrantes h2 i{
+  margin-right: 10px;
+}
+
+.integrantes ul li{
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.imagen__interseccion{
+  width: 100%;
+}
+
+.imagen__interseccion img{
+  margin-top: 3px;
+  width: 100%;
+}
+
+.hr__2{
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+/* Diseño para tablets */
+@media screen and (max-width: 800px){
+  .ctn__body{
+    max-width: 800px;
+  }
+  .txt__banner{
+    width: 40%;
+  }
+  .ctn__desarrolladores{
+    width: 90%;
+  }
+  .img__desarolladores{
+    width: 55%;
+  }
+  .integrantes{
+    width: 45%;
+  }
+  .integrantes h2{
+    font-size: 28px;
+  }
+  .integrantes h2 i{
+    font-size: 20px;
+  }
+  .integrantes ul li{
+    font-size: 15px;
+  }
+}

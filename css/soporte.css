@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+h2{
+    font-size: 35px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+p{
+    margin: 15px 0;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.contenedor{
+    margin: auto;
+    max-width: 1360px;
+}
+.ctn__principal{
+    background-image: linear-gradient(to bottom, rgba(30, 72, 134, 0.418) 0%, rgba(0, 0, 0, 0.4) 80%), url(../img/img_Soporte/fondoBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    flex-direction: column;
+}
+.ctn__principal h1{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 45px; 
+    color: white;
+    margin: 5px;
+}
+.ctn__soporte{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.ctn__tecnico{
+    margin: 10px;
+    width: 20%;
+    padding: 10px;
+    align-items: center;
+}
+
+.ctn__tecnico h2{
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+.ctn__soporte img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+.seleccionar{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seleccionar p{
+    color: gray;
+}
+
+/* Descripcion soporte */
+.ctn__descripcion{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.img__servicios{
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Descripcion soporte tecnico */
+.srv__tecnico{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.srv__tecnico__img{
+    width: 50%;
+    text-align: center;
+}
+
+.des__tecnico{
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+}
+.des__tecnico p{
+    font-size: 18px;
+}
+
+/* Descripcion soporte pagina */
+.srv__pagina{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.srv__pagina__img{
+    width: 50%;
+    text-align: center;
+}
+
+.des__pagina{
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    text-align: right;
+}
+.des__pagina p{
+    font-size: 18px;
+}
+
+/* Descripcion soporte compra */
+.srv__compra{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.srv__compra__img{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.ctn__formulario{
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.ctn__formulario p{
+    font-size: 18px;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h3{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.formulario input{
+    width: 90%;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin: 10px;
+}
+
+.frm__nom__completo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frm__nom{
+    width: 50%;
+}
+
+.frm__textArea textarea{
+    width: 98%;
+    height: 70px;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.frm__contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.frm__last{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.frm__phone{
+    width: 60%;
+}
+
+.frm__send{
+    width: 40%;
+    margin-left: 10px;
+}
+
+.frm__contacto button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+
+    background-color: #0c4c8d;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px black;
+    color: white;
+    font-size: 18px;
+    transition: all 300ms;
+    margin-bottom: 10px;
+}
+
+.frm__contacto button:hover{
+    background-color: rgb(180, 25, 25);
+}
+
+.frm__contacto input{
+    width: 95%;
+}

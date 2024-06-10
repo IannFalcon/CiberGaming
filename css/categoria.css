@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+  }
+
+.cajaGod{
+    max-width: 1360px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 10px;
+    font-size: 28px;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 10px;
+}
+
+.Titulo h1{
+    margin: 20px 10px;
+}
+
+/* Mejores juegos */
+.ctn_mejoresjuegos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ctn_mejoresjuegos button{
+    padding: 10px 60px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0c4c8d;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #0c4c8d;
+    transition: all 500ms;
+}
+
+.ctn_mejoresjuegos button:hover{
+    background-color: black;
+    box-shadow: 0 0 10px black;
+}
+
+.juegos1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin: 20px;
+    
+}
+.juegos1 img {
+    width: 95%;
+    box-shadow: 0 0 10px black;
+}
+
+.juegos1 p{
+    text-align: center;
+    margin: 10px;
+}
+
+.juegos2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin: 20px;
+    height: 480px;
+}
+
+.juegos2 img {
+    width: 95%;
+    box-shadow: 0 0 20px rgb(77, 12, 163);
+}
+
+.juegos2 h3{
+    margin-top: 20px;
+}
+
+.juegos2 p{
+    text-align: center;
+    margin: 10px;
+}
+
+/*primer banner*/
+.banner1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner1 img {
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+/*fase de "juegos de accion"*/
+.subJuegoAccion{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.accion_padre {
+    width: 90%;
+    display: flex;   
+    flex-wrap: wrap;   
+    justify-content: center;
+    align-items: center;
+    padding: 10px;    
+    margin: auto;
+}
+
+.juego_accion {
+    width: 20%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.juego_accion img {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.juego_accion p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn__compra{
+    padding: 10px 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0c4c8d;
+    color: white;
+    box-shadow: 0 0 10px #0c4c8d;
+    margin-right: 10px;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+.btn__compra__icon{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff9100;
+    box-shadow: 0 0 10px #ff9100;
+    font-size: 14px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.juego_accion button:hover{
+    background-color: black;
+    box-shadow: 0 0 10px black;
+    color: white;
+}
+
+
+/*fase de "juegos de supervivencia"*/
+.cajaSupervivencia {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.supervivencia_juegos{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.supervivencia_juegos img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+.supervivencia_juegos p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.supervivencia_juegos button:hover{
+    background-color: black;
+    box-shadow: 0 0 10px black;
+    color: white;
+}
+
+/*fase de "juegos de aventura"*/
+.ctn__juegos__aventura{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.ctn_juegos{
+    width: 65%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.juegos{
+    width: 32%;
+    margin: 10px;
+    text-align: center;
+}
+
+.juegos img{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+
+.juegos p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.juegos button:hover{
+    background-color: black;
+    box-shadow: 0 0 10px black;
+    color: white;
+}
+
+.juegos__aventura{
+    width: 35%;
+}
+
+.juegos__aventura img{
+    width: 100%;
+    height: 240px;
+    margin: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+/* Juegos terror */
+.ctn__juegos__terror{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.video__terror{
+    width: 40%;
+    margin: 10px;
+}
+
+.video__terror iframe{
+    width: 100%;
+    box-shadow: 0 0 20px black;
+}
+
+.ctn__juegos__img{
+    width: 60%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ctn__juegos{
+    display: flex;
+    flex-direction: row;
+}
+
+.juegos__terror{
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.juegos__terror img{
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+
+.juegos__terror button:hover{
+    background-color: black;
+    box-shadow: 0 0 10px black;
+    color: white;
+}
+
+.ctn__juegos__txt{
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
